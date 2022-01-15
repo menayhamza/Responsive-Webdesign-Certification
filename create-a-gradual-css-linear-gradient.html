@@ -1,0 +1,63 @@
+<style>
+  div {
+    border-radius: 20px;
+    width: 70%;
+    height: 300px;
+    margin: 50px auto;
+
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC );
+
+box-shadow: -1px 10px 16px 3px rgba(0,0,0,0.36);  
+
+}
+
+h1
+{
+  color:hsl(303, 37%, 30%);
+  position:relative;
+  text-align:center;
+  top:0.6em;
+  font-size:2.5em;
+  shadow:5px;
+}
+form
+{
+  display:inline-block; 
+  position:relative;
+  text-align:center;
+  line-height:2em;
+  font-weight:500;
+top:0.9em;
+left:3.5em;
+font-style:bold; 
+font-size:18px;
+color:grey
+}
+#submit
+{
+  background-color:hsl(303, 37%, 30%);
+  color:white;
+  font-size:1em;
+  padding:1em;
+  margin:1em;
+  width:70%;
+  border-radius: 10px;
+  border:none;
+}
+#submit:click
+{
+  background-color:white;
+  color: hsl(303, 37%, 30%);
+}
+</style>
+
+<div>
+  <h1> Solanarium </h1>
+  <form> 
+    <label for="username"> Username </label></br> 
+    <input type="text" id="username"/></br> 
+    <label for="password"> Password </label></br>
+    <input type="password" id="password"/> </br>
+    <input type="submit" value="Submit" id="submit">
+    </form>
+</div>
